@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Visualize data with a treemap diagram</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital@0;1&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <h1 id="title">Movie sales</h1>
+    <p id="description">Top 100 highest grossing movies grouped by genre</p>
+  </header>
+  <div class="svg-container">
+    <svg class="svg-content" viewBox="0 0 1200 800" preserveAspectRatio="none" id="legend">
+      <rect class="legend-item" x="175" y="720" rx="2" ry="2" width="15" height="15" style="fill: steelblue;" />
+      <text x="195" y="732" style="font-size: 12px;">Action movies.</text>
+      <rect class="legend-item" x="300" y="720" rx="2" ry="2" width="15" height="15" style="fill: green;" />
+      <text x="320" y="732" style="font-size: 12px;">Adventure movies.</text>
+      <rect class="legend-item" x="425" y="720" rx="2" ry="2" width="15" height="15" style="fill: coral;" />
+      <text x="445" y="732" style="font-size: 12px;">Comedy movies.</text>
+      <rect class="legend-item" x="550" y="720" rx="2" ry="2" width="15" height="15" style="fill: orange;" />
+      <text x="570" y="732" style="font-size: 12px;">Drama movies.</text>
+      <rect class="legend-item" x="675" y="720" rx="2" ry="2" width="15" height="15" style="fill: pink;" />
+      <text x="695" y="732" style="font-size: 12px;">Animation movies.</text>
+      <rect class="legend-item" x="800" y="720" rx="2" ry="2" width="15" height="15" style="fill: grey;" />
+      <text x="820" y="732" style="font-size: 12px;">Family movies.</text>
+      <rect class="legend-item" x="925" y="720" rx="2" ry="2" width="15" height="15" style="fill: tan;" />
+      <text x="945" y="732" style="font-size: 12px;">Biography movies.</text>
+    </svg>
+  </div>
+  <footer>
+    <p>Made by <a href="https://github.com/Shaikot007" target="_blank" rel="noopener noreferrer">Shaikot</a></p>
+  </footer>
+</body>
+
+<script defer src="./script.js"></script>
+<script src="https://d3js.org/d3.v6.min.js"></script>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+</html>
