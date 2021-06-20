@@ -92,10 +92,10 @@ fetch(movie_url)
                  .style("opacity", 1)
                  .style("left", data.pageX + "px")
                  .style("top", data.pageY + "px");
-          
+
           document.querySelector("#tooltip").setAttribute("data-value", index["data"]["value"]);
-          document.querySelector("#tooltip").innerHTML = 
-            "Name: " + index["data"]["name"] + ", " + "<br />" + 
+          document.querySelector("#tooltip").innerHTML =
+            "Name: " + index["data"]["name"] + ", " + "<br />" +
             "Category: " + index["data"]["category"] + ", " + "<br />" +
             "Value: " + index['data']['value'].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + ".";
         })

@@ -7,17 +7,17 @@ body {
   background-color: whitesmoke;
 }
 
-.svg-container { 
+.svg-container {
   display: inline-block;
   position: relative;
   width: 80%;
-  padding-bottom: 50%; 
-  vertical-align: middle; 
+  padding-bottom: 50%;
+  vertical-align: middle;
   overflow: hidden;
   background-color: whitesmoke;
 }
 
-.svg-content { 
+.svg-content {
   display: inline-block;
   position: absolute;
   top: 0;
